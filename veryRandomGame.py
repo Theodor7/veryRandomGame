@@ -35,7 +35,7 @@ while hero.health > 0 and enemy.health > 0 :
     print status()
     time.sleep(2)
 
-if hero.health < 0 :
+if hero.health <= 0 :
     print 'GAME OVER!'
 else:
     print 'You win! :D'
